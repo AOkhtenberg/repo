@@ -1,14 +1,19 @@
 <repo>
 	<footerlinks>
 		<link>
-			<name>Follow me on Twitter</name>
-			<url>https://twitter.com/reposi3</url>
+			<name>Twitter</name>
+			<url>https://twitter.com/AOKhtenberg</url>
 			<iconclass>fa fa-twitter</iconclass>
 		</link>
 		<link>
-			<name>I want this depiction template</name>
-			<url>https://github.com/supermamon/Reposi3/</url>
-			<iconclass>fa fa-thumbs-up</iconclass>
+			<name>Email</name>
+			<url>mailto:aokhtenberg@gmail.com</url>
+			<iconclass>fa fa-envelope-open</iconclass>
 		</link>
+		<link>
+	    <name>Buy ne a coffee</name>
+	    <url>https://www.paypal.me/aokhtenberg</url>
+			<iconclass>fa fa-paypal</iconclass>
+	  </link>
 	</footerlinks>
 </repo>
