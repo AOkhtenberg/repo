@@ -1,19 +1,20 @@
 <package>
-	<id>com.aokhtenberg.muneedit</id>
-	<name>Mune (AOkhtenberg Edit)</name>
-	<version>1.0</version>
+	<id>com.aids.makecydiabuyagain</id>
+	<name>MakeCydiaBuyAgain</name>
+	<version>1.0.2-87+debug</version>
 	<compatibility></compatibility>
 	<dependencies>
-		<package>com.junesiphone.xeninfo</package>
+		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>
-			This is a test description.
-		</description>
+		<description>Makes Cydia buy again. Make sure you change the Device to a compatible device for the tweak you are trying to install. Obviously iOS 7 isn't on an iPhone X</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Test change.</change>
+		<change>Crash fixes. Thanks LonestarX</change>
+		<change>Upped Version</change>
+		<change>Rewrote tweak.</change>
+		<change>Added a settings view to change your device and firmware. The settings button is in cydia in the top left where the old about button used to be.</change>
 	</changelog>
 	<links></links>
 </package>
