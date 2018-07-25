@@ -1,0 +1,15 @@
+Package: com.aokhtenberg.muneedit
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AOkhtenberg <aokhtenberg@gmail.com>
+Filename: ./debs/com.aokhtenberg.muneedit_1.0_iphoneos-arm.deb
+Size: 331668
+MD5sum: e5b85a1b56871f4e4c0ed8f88c203d8d
+SHA1: 1b8164a09399b9f2b44d15ebfd57d7a45221cada
+SHA256: 246d1023ebf99ae0186a58c7f337cb8397daebb74977331080c58bc04412f1fe
+Section: Widgets
+Description: Widgets
+Author: AOkhtenberg
+Depiction: https://github.com/AOkhtenberg/AOkhtenberg.github.io/repo/depictions
+Name: LS Mune Edit
+
