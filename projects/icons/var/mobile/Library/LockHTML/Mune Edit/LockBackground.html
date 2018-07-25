@@ -1,0 +1,132 @@
+<!--
+	Mune LS - by @thatMshl
+	Edited by @AOkhtenberg with permission from owner
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="js/clock.js"></script>
+	<script type="text/javascript" charset="utf-8" src="config.js"></script>
+	<meta content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+	<meta charset="utf-8">
+</head>
+<style>
+	body{
+		/*background: #2E313A;*//*TESTING*/
+	    color:white;
+	    font-size: 28px;
+	    padding:0;
+	    margin:0;
+	    text-shadow: 2px 2px rgba(0,0,0,0);
+	  }
+	.container{
+	    width: 100%;
+	    height: 120px;
+	  }
+	.container div{
+	    margin-top: 50px;
+	    position: absolute;
+	    font-family: 'GMed';
+	  }
+	#time{
+	    color: #2E313A;
+	    top:121px;
+	    width: 100%;
+	    text-align: center;
+	    text-transform: uppercase;
+	    font-family: 'GBold';
+	    font-size: 15px;
+
+	    padding-top: 4px;
+	    left:50%;
+	    -webkit-transform:translate(-50%,0);
+	    height: 17px;
+	    width: 55px;
+	    z-index: 1;
+	    white-space: nowrap;
+	    background-color: white;
+	    border-radius: 2px;
+	  }
+	#date{
+	    top:78px;
+	    width: 100%;
+	    font-size: 37px;
+	    font-family: 'NB';
+	    text-align: center;
+	  }
+	#battery{
+	    top:50px;
+	    width: 100%;
+	    text-align: center;
+	    text-transform: uppercase;
+	    font-family: 'GBold';
+	    font-size: 10px;
+	    opacity: 1.0;
+	    letter-spacing: 1px;
+	  }
+
+	@font-face{
+	    font-family:GrBold;
+	    src:url(fonts/GrBold.otf);
+	}
+	@font-face{
+	    font-family:GrMed;
+	    src:url(fonts/GrMed.otf);
+	}
+	@font-face{
+	    font-family:GBold;
+	    src:url(fonts/GBold.otf);
+	}
+	@font-face{
+	    font-family:GMed;
+	    src:url(fonts/GMed.otf);
+	}
+	@font-face{
+	    font-family:NB;
+	    src:url(fonts/NB.ttf);
+	}
+</style>
+
+<body onload="init()">
+	<div class="container">
+		<div id="time">12:00 - December 22</div>
+		<div id="date">Monday</div>
+		<div id="battery">00%</div>
+	</div>
+
+	<script type="text/javascript">
+
+		var doc = document,
+			timeDiv = doc.getElementById('time'),
+			dateDiv = doc.getElementById('date'),
+			batteryDiv = doc.getElementById('battery');
+
+			var dfont = "GrBold";
+			var rfont = Round_Font;
+			if (rfont == false){
+				dfont = "GBold";
+			}
+			time.style.fontFamily = dfont;
+			battery.style.fontFamily = dfont;
+
+			if (Show_Battery == false){
+				battery.style.opacity = '0';
+			}
+
+			clock({
+		      twentyfour : Twenty_Four_Hours,
+		      padzero : false,
+		      refresh : 5000,
+		      success: function(clock){
+		        timeDiv.innerHTML = clock.hour() + ':' + clock.minute();
+		        dateDiv.innerHTML = translate[current].weekday[clock.day()];
+		      }
+		    });
+		    function mainUpdate(type){
+				if(type == "battery"){
+					batteryDiv.innerHTML = batteryPercent + "%";
+				}
+			}
+	</script>
+</body>
+</html>

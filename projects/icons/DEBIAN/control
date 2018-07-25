@@ -1,0 +1,9 @@
+Architecture: iphoneos-arm
+Author: AOkhtenberg
+Depiction: https://github.com/AOkhtenberg/AOkhtenberg.github.io/repo/depictions
+Description: Widgets
+Maintainer: AOkhtenberg <aokhtenberg@gmail.com> 
+Name: LS Mune Edit
+Package: com.aokhtenberg.muneedit
+Section: Widgets
+Version: 1.0
