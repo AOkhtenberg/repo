@@ -1,9 +1,9 @@
-Architecture: iphoneos-arm
-Author: AOkhtenberg
-Depiction: https://aokhtenberg.github.io/repo/depictions/?p=com.aokhtenberg.muneedit
-Description: Simple Lockscreen Widget
-Maintainer: AOkhtenberg <aokhtenberg@gmail.com> 
-Name: Mune (AOkhtenberg Edit)
 Package: com.aokhtenberg.muneedit
-Section: Widgets
+Name: Mune (AOkhtenberg Edit)
 Version: 1.0
+Architecture: iphoneos-arm
+Description: Simple Lockscreen Widget
+Depiction: https://aokhtenberg.github.io/repo/depictions/?p=com.aokhtenberg.muneedit
+Maintainer: AOkhtenberg <aokhtenberg@gmail.com> 
+Author: AOkhtenberg
+Section: Widgets
