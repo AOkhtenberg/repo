@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: AOkhtenberg <aokhtenberg@gmail.com>
 Filename: ./debs/com.aokhtenberg.muneedit_1.0_iphoneos-arm.deb
 Size: 311230
-MD5sum: 5071ee14b97e56d8f830562d8e645a1c
-SHA1: 1d53c67d48a8bed84dca5373fc53e6079dcfd4db
-SHA256: 777bb8c9c6f0fa780cec20679084c726017e14a1d0a734e346b8c4914cacb66b
+MD5sum: b591caff0d87f48e6ed87c5e126823b9
+SHA1: 003a0c41d5affc2e28dabee647fca08c25f63528
+SHA256: ea7ea3402bebc9d6f6a86478d27ef69e037eeab12aed36ded085033611314660
 Section: Widgets
 Description: Simple Lockscreen Widget
 Author: AOkhtenberg
