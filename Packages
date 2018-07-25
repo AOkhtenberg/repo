@@ -3,13 +3,13 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: AOkhtenberg <aokhtenberg@gmail.com>
 Filename: ./debs/com.aokhtenberg.muneedit_1.0_iphoneos-arm.deb
-Size: 331730
-MD5sum: 886229c21a613fb4b216fad15a51ea20
-SHA1: 9d16e3712be8a0110ba8ae8c777f758e4f85c5bc
-SHA256: a9ab6655baeb613492bd4e09f328ee1d2b2ce94361aaaf7d4d49e7579d294e41
+Size: 331724
+MD5sum: 22a17fc232d009e204ff36b24356c9d4
+SHA1: 595fdbd427b0d048bc7de42178bc578c6dab31d6
+SHA256: ab56eaafd1f4f5120e1c19971b99bf708e0dffc078814d0138bebd911f3e5299
 Section: Widgets
 Description: Simple Lockscreen Widget
 Author: AOkhtenberg
-Depiction: https://github.com/AOkhtenberg/repo/tree/master/depictions/com.aokhtenberg.muneedit
+Depiction: https://aokhtenberg.github.io/repo/depictions/?p=com.aokhtenberg.muneedit
 Name: Mune (AOkhtenberg Edit)
 
