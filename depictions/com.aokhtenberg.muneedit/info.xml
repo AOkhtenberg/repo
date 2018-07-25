@@ -2,45 +2,18 @@
 	<id>com.aokhtenberg.muneedit</id>
 	<name>Mune (AOkhtenberg Edit)</name>
 	<version>1.0</version>
-	<compatibility>
-		<firmware>
-			<maxiOS>11.4</maxiOS>
-			<miniOS>11.0</miniOS>
-			<otherVersions>unconfirmed</otherVersions>
-		</firmware>
-	</compatibility>
+	<compatibility></compatibility>
 	<dependencies>
 		<package>com.junesiphone.xeninfo</package>
 	</dependencies>
 	<descriptionlist>
-		<description>This is an package will full depictions.</description>
-		<description>It has more description lines.</description>
-		<description><![CDATA[
-		You can also have<br/> 
-		a multi-line item.
-		]]>
+		<description>
+			This is a test description.
 		</description>
 	</descriptionlist>
-	<screenshots>
-		<screenshot>
-			<description>This is a description for screenshot 1. It's Cydia!</description>
-			<image>cydia.jpg</image>
-		</screenshot>		
-		<screenshot>
-			<description>This is a description for screenshot 2. It's another Cydia!</description>
-			<image>cydia.jpg</image>
-		</screenshot>		
-	</screenshots>
+	<screenshots></screenshots>
 	<changelog>
-		<change>Second release</change>
-		<change>It has feature 1</change>
-		<change>It has feature 2</change>
+		<change>Test change.</change>
 	</changelog>
-	<links>
-		<link>
-			<name>/r/jailbreak</name>
-			<url>https://www.reddit.com/r/jailbreak</url>
-			<iconclass>fa fa-reddit</iconclass>
-		</link>
-	</links>
+	<links></links>
 </package>
