@@ -4,17 +4,14 @@
 	<version>1.0.2-87+debug</version>
 	<compatibility></compatibility>
 	<dependencies>
-		<package>mobilesubstrate</package>
+		<package>com.junesiphone.xeninfo</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Makes Cydia buy again. Make sure you change the Device to a compatible device for the tweak you are trying to install. Obviously iOS 7 isn't on an iPhone X</description>
+		<description>Testing description box.</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Crash fixes. Thanks LonestarX</change>
-		<change>Upped Version</change>
-		<change>Rewrote tweak.</change>
-		<change>Added a settings view to change your device and firmware. The settings button is in cydia in the top left where the old about button used to be.</change>
+		<change>Testing changelog box.</change>
 	</changelog>
 	<links></links>
 </package>
