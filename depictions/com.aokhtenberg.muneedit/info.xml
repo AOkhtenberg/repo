@@ -4,14 +4,24 @@
 	<version>1.0</version>
 	<compatibility></compatibility>
 	<dependencies>
+		<package>Please install XenInfo</package>
 		<package>com.junesiphone.xeninfo</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Testing description box.</description>
+		<description>This is my personal edit of the Mune LS widget.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description>This is a description for screenshot 1. It's Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>This is a description for screenshot 2. It's another Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+	</screenshots>
 	<changelog>
-		<change>Testing changelog box.</change>
+		<change>Initial release.</change>
 	</changelog>
 	<links></links>
 </package>
